@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Portfolio Web - W.W.M
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un portafolio personal moderno y responsivo desarrollado en React. Su objetivo es mostrar tu experiencia, habilidades y educación de manera atractiva y profesional para potenciales clientes o empleadores.
 
-## Available Scripts
+## Secciones principales
 
-In the project directory, you can run:
+- **Hero**: Presentación principal con mi nombre, ubicación y un botón de contacto.
+- **Sobre mí**: Breve descripción personal y foto.
+- **Experiencia**: Tarjetas con tu experiencia laboral relevante.
+- **Habilidades**: Tarjetas con categorías de habilidades técnicas, cada una con iconos y descripciones.
+- **Educación**: Tarjetas con tu formación académica.
+- **Contacto**: Modal de contacto accesible desde el botón principal, permite enviar mensajes.
+- **Footer**: Íconos de contacto rápido (WhatsApp, LinkedIn, Email).
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Diseño moderno con glassmorphism, gradientes y efectos visuales.
+- Completamente responsivo y optimizado para móviles.
+- Menú hamburguesa en dispositivos móviles.
+- Animaciones sutiles y efectos de enfoque.
+- Integración con WhatsApp para contacto directo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación y uso
 
-### `npm test`
+1. **Clona el repositorio:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```powershell
+   git clone <url-del-repositorio>
+   cd portfolio
+   ```
 
-### `npm run build`
+2. **Instala las dependencias:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```powershell
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Inicia el servidor de desarrollo:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```powershell
+   npm start
+   ```
 
-### `npm run eject`
+4. **Abre tu navegador en:**
+   ```
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Scripts útiles
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `npm start` — Inicia la app en modo desarrollo.
+- `npm run build` — Genera una versión optimizada para producción.
+- `npm test` — Ejecuta los tests (si están configurados).
+- `npm run eject` — Expone la configuración de Create React App (no reversible).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Estructura de carpetas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+  components/
+    Header.js
+    Hero.js
+    About.js
+    Experience.js
+    Skills.js
+    Education.js
+    Footer.js
+  App.js
+  App.css
+  index.js
+public/
+  index.html
+```
 
-## Learn More
+## Requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js y npm instalados.
+- Navegador moderno.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Personaliza las secciones y estilos para destacar tu perfil profesional!
